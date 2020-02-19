@@ -8,7 +8,7 @@ import { Color, BaseChartDirective, Label } from 'ng2-charts';
   templateUrl: './linea.component.html',
   styleUrls: ['./linea.component.css']
 })
-export class LineaComponent{
+export class LineaComponent {
 
   public lineChartData: ChartDataSets[] = [
     { data: [65, 59, 80, 81, 56, 55, 40], label: 'Jamón' },
